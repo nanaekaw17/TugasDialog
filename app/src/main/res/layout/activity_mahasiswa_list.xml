@@ -60,14 +60,14 @@
         app:layout_constraintVertical_bias="0.347" />
 
     <TextView
-        android:id="@+id/Txt_nama "
+        android:id="@+id/txtNama"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Michael_72170100"
+        android:text="Nana_72170090"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
