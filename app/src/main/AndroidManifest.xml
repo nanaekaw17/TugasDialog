@@ -9,13 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CobaMenuActivity">
-
-        </activity>
-        <activity android:name=".DaftarTemanActivity">
-
-        </activity>
-        <activity android:name=".RecyclerViewActivity"></activity>
+        <activity
+            android:name=".SettingProteinTracker"
+            android:label="@string/title_activity_setting_protein_tracker"></activity>
+        <activity android:name=".CobaMenuActivity"></activity>
+        <activity android:name=".DaftarTemanActivity"></activity>
+        <activity android:name=".RecyclerViewActivity" />
         <activity android:name=".UpdateMahasiswa" />
         <activity android:name=".TambahMahasiswa" />
         <activity android:name=".MahasiswaList" />
@@ -27,7 +26,7 @@
         <activity android:name=".ProteinTreckerApp" />
         <activity android:name=".Main2Activity" />
         <activity android:name=".HelpActivity" />
-        <activity android:name=".MainActivity" >
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
